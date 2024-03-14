@@ -1,0 +1,34 @@
+*
+{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho > h1
+{
+    text-align: center; 
+    color: #fff; 
+    background-color: rgb(31, 31, 31) ; 
+    padding: 10px 0; 
+    box-shadow: 4px 3px 5px rgb(38, 0, 141); 
+    border-radius: 5px;
+}
+
+.cabecalho ul
+{
+    list-style: none;
+}
+
+.cabecalho li
+{
+    display: inline-block;
+    margin: 0 10%;
+}
+
+.cabecalho li img
+{
+    display: block;
+    width: 50%;
+    min-width: 10%;
+}
